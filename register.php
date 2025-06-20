@@ -1,5 +1,5 @@
 <?php
-require_once "includes/db.php";
+require_once "../includes/db.php";
 
 $msg = "";
 
@@ -44,7 +44,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <title>Register - Bobatrade</title>
     <style>
         body {
-            background-color: #0b0e11;
+            background-color:rgba(11, 14, 17, 0.3);
             color: white;
             font-family: Arial, sans-serif;
             display: flex;

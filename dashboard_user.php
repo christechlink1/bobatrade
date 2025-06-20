@@ -1,5 +1,5 @@
 <?php
-require_once 'includes/auth.php';
+require_once "../includes/auth.php";
 requireLogin();
 
 if (!isset($_SESSION['user'])) {

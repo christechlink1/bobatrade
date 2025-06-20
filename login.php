@@ -1,6 +1,6 @@
 <?php
-require_once "includes/db.php";
-require_once "includes/auth.php";
+require_once "../includes/db.php";
+require_once "../includes/auth.php";
 
 $msg = "";
 
@@ -250,7 +250,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <body>
     <div class="container">
         <h2>Bobatrade</h2>
-        <h3>Login</h3>
+        <h3>Admin Login</h3>
         <form method="POST" id="loginForm">
             <div id="emailStep">
                 <input type="email" name="email" id="email" placeholder="Email" required>
